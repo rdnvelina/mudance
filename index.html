@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <title>проект</title>
+</head>
+<body>
+
+<header class="header" id="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__logo" data-scroll="#intro">MuDance</div>
+            <nav class="nav" id="nav">
+                <a class="nav__link" href="#" data-scroll="#about">О нас</a>
+                <a class="nav__link" href="#" data-scroll="#services">Сервис</a>
+                <a class="nav__link" href="#" data-scroll="#blog">Блог</a>
+                <a class="nav__link" href="#" data-scroll="#footer">Контакты</a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+    <div class="intro" id="intro">
+        <div class="contaner">
+            <div class="intro__inner">
+                <h2 class="intro__suptitle">Студия танцев</h2>
+                <h1 class="intro__title">Добро пожаловать в MuDance</h1>
+                <a class="btn" href="#">Узнать больше</a>
+            </div>
+        </div>
+    </div>
+
+<section class="section" id="about">
+    <div class="container">
+        <div class="section__header">
+            <h3 class="section__suptitle">Знакомство с компанией</h3>
+            <h2 class="section__title">История происхождения</h2>
+            <div class="section__text">
+                <p><b>Наша компания существует уже с 2007 года. За это время мы выросли с маленькой студии
+                до студии размером свыше 100кв метров, а также открыли филиалы по всей стране! В нашей 
+                студии танцев работают профессионалы имеющие опыт и учавстоввавшие в мировых танцевальных
+                соревнованиях. Здесь мы рады каждому, кто хочет попробовать себя в танцевальном направлении.</b></p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card__item">
+                <div class="card__img">
+                    <img src="assets/images/about/1.jpg" alt="">
+                </div>  
+                <div class="card__text">спорт и танцы</div>
+            </div>
+            <div class="card__item">
+                <div class="card__img">
+                    <img src="assets/images/about/2.jpg" alt="">
+                </div>
+                <div class="card__text">тело в гармонии</div>
+            </div>
+            <div class="card__item">
+                <div class="card__img">
+                    <img src="assets/images/about/3.jpg" alt="">
+                </div>
+                <div class="card__text">наши тренера</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="statistics">
+    <div class="container">
+        <div class="stat">
+            <div class="stat__item">
+                <div class="stat__count">18</div>
+                <div class="stat__text">направлений танцев</div>
+            </div>
+            <div class="stat__item">
+                <div class="stat__count">273</div>
+                <div class="stat__text">довольных учеников</div>
+            </div>
+            <div class="stat__item">
+                <div class="stat__count">14</div>
+                <div class="stat__text">лет на рынке</div>
+            </div>
+            <div class="stat__item">
+                <div class="stat__count">8</div>
+                <div class="stat__text">филиалов в стране</div>
+            </div>
+            <div class="stat__item">
+                <div class="stat__count">11</div>
+                <div class="stat__text">преподавателей</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="section" id="services">
+    <div class="container">
+        <div class="section__header">
+            <h3 class="section__suptitle">Сервис</h3>
+            <h2 class="section__title">О студии</h2>
+            <div class="section__text">
+                <p><b>
+                    Главной целью студии танцев MuDance является помочь тем, кто хочет обрести себя в 
+                    искусстве танцев. Для этого мы регулярно посещаем различные соревнования, где можем 
+                    найти достойных людей для преподавания.</b></p>
+            </div>
+        </div>
+        <div class="wedo">
+            <div class="wedo__item">
+                <img src="assets/images/contemp.jpg" alt="">
+            </div>
+            <div class="wedo__item">
+                <div class="accordion">
+                    <div class="accordion__item" data-collapse="#wedo_1">
+                        <div class="accordion__header">
+                            <img class="accordion__icon" src="" alt="">
+                            <div class="accordion__title"><b>Наши преимущества</b></div>
+                        </div>
+                        <div class="accordion__content" id="wedo_1">
+                            <p><b>1. Тщательно следим за безопасностью</b></p>
+                            <p><b>2. Существуем более 10 лет</b></p>
+                            <p><b>3. Нам доверилось более 200 человек</b></p>
+                            <p><b>4. Имеем большое разнообразие в направлениях</b></p>
+                            <p><b>5. Если у вас нет возможности прийти на занятия, ваши деньги не прогорают, и 
+                                вы можете прийти в следующий раз</b></p>
+                        </div>
+                    </div>
+                    <div class="accordion__item active" data-collapse="#wedo_2">
+                        <div class="accordion__header">
+                            <img class="accordion__icon" src="" alt="">
+                            <div class="accordion__title"><b>Какие есть виды танцев</b></div>
+                        </div>
+                        <div class="accordion__content" id="wedo_2">
+                            <p><b>1. Hip Hop</b></p>
+                            <p><b>2. Street jazz</b></p>
+                            <p><b>3. Contemporary</b></p>
+                            <p><b>4. Dance Hall</b></p>
+                            <p><b>5. Strip Plastic</b></p>
+                            <p><b>6. Popping</b></p>
+                            <p><b>7. Stretching</b></p>
+                        </div>
+                    </div>
+                    <div class="accordion__item" data-collapse="#wedo_3">
+                        <div class="accordion__header">
+                            <img class="accordion__icon" src="" alt="">
+                            <div class="accordion__title"><b>О наших филиалах</b></div>
+                        </div>
+                        <div class="accordion__content" id="wedo_3">
+                            <p><b>Как мы уже сказали, у нас есть 8 филлиалов в разных городах Казахстана. 
+                                А именно: Караганда, Атырау, Алматы, Нур-Султан, Шымкент, Павлодар.
+                                МЫ выбираем лучших тренеров для всех филиалов, так что вы можете доверять, 
+                                нашему профессионализму!</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="section  section--gray">
+    <div class="container">
+        <div class="reviews">
+            <div data-slider>
+                <div>
+                    <div class="reviews__item">
+                        <img class="reviews__photo" src="assets/images/super.jpg" alt="">
+                        <div class="reviews__text"><b>"Эта студия покорила меня с первого взгляда! Здесь очень атмосферно,
+                            тут я заряжаюсь энергией на весь день.</b></div>
+                        <div class="reviews__autor"><b>Алина</b></div>
+                    </div>
+                </div>
+                <div>
+                    <div class="reviews__item">
+                        <img class="reviews__photo" src="assets/images/super.jpg" alt="">
+                        <div class="reviews__text"><b>"Больше всего мне нравится здесь то, что можно заниматься не только
+                            ради соревнований, но и просто так для себя"</b></div>
+                        <div class="reviews__autor"><b>Валентина</b></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="section">
+    <div class="container">
+        <div class="section__header">
+            <h3 class="section__suptitle">Кто мы</h3>
+            <h2 class="section__title">Познакомьтесь с командой</h2>
+            <div class="section__text">
+                <p><b>
+                    Наши тренера следят за тем, чтобы никто из учеников не получил физические травмы. 
+                    Забота о Вашем здоровье является для нас важной частью нашей работы.</b></p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card__item">
+                <div class="card__inner">
+                    <div class="card__img">
+                        <img src="assets/images/were/direct.jpg" alt="">
+                    </div>  
+                    <div class="card__text">
+                        <div class="social">
+                            <a class="social__item" href="https://www.instagram.com/" target="blank">
+                                Соцсети
+                            </a>
+                        </div>
+                    </div>
+            </div>
+                    <div class="card__info">
+                        <div class="card__name"><b>Анастасия Шпикина</b></div>
+                        <div class="card__prof"><b>Директор студии</b></div>
+                    </div>
+            </div>
+            <div class="card__item">
+                <div class="card__inner">
+                    <div class="card__img">
+                        <img src="assets/images/were/team.jpg" alt="">
+                    </div>
+                <div class="card__text">
+                    <div class="social">
+                        <a class="social__item" href="https://www.instagram.com/" target="blank">
+                            Соцсети
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card__info">
+                <div class="card__name"><b>Максим Величенко</b></div>
+                <div class="card__prof"><b>Старший тренер</b></div>
+            </div>
+            </div>
+            <div class="card__item">
+                    <div class="card__inner">
+                        <div class="card__img">
+                            <img src="assets/images/were/ych.jpg" alt="">
+                        </div>
+                        <div class="card__text">
+                            <div class="social">
+                                <a class="social__item" href="https://www.instagram.com/" target="blank">
+                                    Соцсети
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__info">
+                        <div class="card__name"><b>Ксения Лыбина</b></div>
+                        <div class="card__prof"><b>Змаестиель старшего тренера</b></div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section  section--clients">
+    <div class="container">
+        <div class="section__header">
+            <h3 class="section__suptitle">Почему мы</h3>
+            <h2 class="section__title">Что говорят наши ученики</h2>
+        </div>
+        <div class="clients">
+            <div class="clients__item">
+                <img class="clients__photo" src="assets/images/clients/33.jpg" alt="">
+                <div class="clients__content">
+                    <div class="clients__name"><b>Саша Сургутова</b></div>
+                    <div class="clients__prof"><b>Студентка</b></div>
+                    <div class="clients__text"><b>Разнообразие в танцах цепляет меня.</b></div>
+                </div>
+            </div>
+            <div class="clients__item">
+                <img class="clients__photo" src="assets/images/clients/11.jpg" alt="">
+                <div class="clients__content">
+                    <div class="clients__name"><b>Диана Демидова</b></div>
+                    <div class="clients__prof"><b>Администратор кофейни</b></div>
+                    <div class="clients__text"><b>Благодаря этой студии я влюблась в танцы, нашла в них себя.
+                        Тренера супер!</b></div>
+                </div>
+            </div>
+            <div class="clients__item">
+                <img class="clients__photo" src="assets/images/clients/44.jpg" alt="">
+                <div class="clients__content">
+                    <div class="clients__name"><b>Марина Мельчавская</b></div>
+                    <div class="clients__prof"><b>Школьница</b></div>
+                    <div class="clients__text"><b>Очень классный тренер, легко запоминаются движения в танцах.</b></div>
+                </div>
+            </div>
+            <div class="clients__item">
+                <img class="clients__photo" src="assets/images/clients/22.jpg" alt="">
+                <div class="clients__content">
+                    <div class="clients__name"><b>Анна Седакова</b></div>
+                    <div class="clients__prof"><b>Фрилансер</b></div>
+                    <div class="clients__text"><b>Дизайн студии придаёт мотивацию заниматься танцами</b></div>
+                </div>
+            </div>
+    </div>
+</section>
+    
+<div class="section">
+    <div class="container">
+        <div class="reviews">
+            <div data-slider>
+                <div>
+                    <div class="reviews__item">
+                        <img class="reviews__photo" src="assets/images/ima.jpg" alt="">
+                        <div class="reviews__text"><b>"Благодаря студии танцев, я стала увереннее в себе, и научилась
+                            красиво танцевать!"</b></div>
+                        <div class="reviews__autor"><b>Юлия</b></div>
+                    </div>
+                </div>  
+                <div>
+                    <div class="reviews__item">
+                        <img class="reviews__photo" src="assets/images/ima.jpg" alt="">
+                        <div class="reviews__text"><b>"Мне очень понравилась группа в которой я занималась, 
+                            здесь все очень дружелюбные, и среди всех, я нашла новых друзей</b></div>
+                        <div class="reviews__autor"><b>Лариса   </b></div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<section class="section" id="blog">
+    <div class="container">
+        <div class="section__header">
+            <h3 class="section__suptitle">Истории студии</h3>
+            <h2 class="section__title">Наш блог</h2>
+        </div>
+        <div class="blog">
+            <div class="blog__item">
+                <div class="blog__header">
+                    <a href="#">
+                        <img class="blog__photo" src="assets/images/blog/1.jpg" alt="">
+                    </a>
+                    <div class="blog__date">
+                        <div class="blog__date-day"><b>15</b></div><b>Дек</b>
+                    </div>
+                </div>
+                <div class="blog__content">
+                    <div class="blog__title">
+                        <a href="#"><b>Учиться самому танцам?</b></a>
+                    </div>
+                    <div class="blog__text"><b>Сегодня мы хотим рассказать о том, как вы можете навредить себе, 
+                       если будете заниматься без подготовки или опытного наставника.</b></div>
+                </div>
+                <div class="blog__footer">
+                    <div class="blog-stat">
+                        <span class="blog-stat__item">
+                            <img src="assets/images/iconas/ic.jpg" alt="">
+                            <b>798</b>
+                        </span>
+                        <span class="blog-stat__item">
+                            <img src="assets/images/iconas/icon.jpg" alt="">
+                            <b>19</b>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="blog__item">
+                <div class="blog__header">
+                    <a href="#">
+                        <img class="blog__photo" src="assets/images/blog/2.jpg" alt="">
+                    </a>
+                    <div class="blog__date">
+                        <div class="blog__date-day"><b>17</b></div><b>Дек</b>
+                    </div>
+                </div>
+                <div class="blog__content">
+                    <div class="blog__title">
+                        <a href="#"><b>Как прошел батл со школой с другого города?</b></a>
+                    </div>
+                    <div class="blog__text"><b>Спешим вам сообщить, что наш батл прошел на Ура! 
+                        Наша команда заняла второе место в...</b></div>
+                </div>
+                <div class="blog__footer">
+                    <div class="blog-stat">
+                        <span class="blog-stat__item">
+                            <img src="assets/images/iconas/ic.jpg" alt="">
+                            <b>856</b>
+                        </span>
+                        <span class="blog-stat__item">
+                            <img src="assets/images/iconas/icon.jpg" alt="">
+                            <b>6</b>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="blog__item">
+                <div class="blog__header">
+                    <a href="#">
+                        <img class="blog__photo" src="assets/images/blog/3.jpg" alt="">
+                    </a>
+                    <div class="blog__date">
+                        <div class="blog__date-day"><b>23</b></div><b>Дек</b>
+                    </div>
+                </div>
+                <div class="blog__content">
+                    <div class="blog__title">
+                        <a href="#"><b>В каких фруктах содержится больше витаминов?</b></a>
+                    </div>
+                    <div class="blog__text"><b>Биологи рассказали, что каждый фрукт содержит различные
+                        полезные витамины, но...</b></div>
+                </div>
+                <div class="blog__footer">
+                    <div class="blog-stat">
+                        <span class="blog-stat__item">
+                            <img src="assets/images/iconas/ic.jpg" alt="">
+                            <b>569</b>
+                        </span>
+                        <span class="blog-stat__item">
+                            <img src="assets/images/iconas/icon.jpg" alt="">
+                            <b>11</b>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section--map">
+    <div class="container">
+        <div class="map">
+            <h2 class="map__title">
+                <div><i class="fas fa-map-marker-alt"></i></div>
+                <a href="https://goo.gl/maps/RUWrQLCPzEDouZdX8" target="_blank"><b>Открыть на карте</b></a>
+            </h2>
+        </div>
+    </div>
+</section>
+
+<footer class="footer" id="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__col footer__col--first">
+                <div class="footer__logo">MuDance</div>
+                <div class="footer__text"><b>Танец помогает формировать начальные математические и логические 
+                    представления ребенка, тренирует навыки ориентирования в пространстве и развивает речь. 
+                    Занятия танцами помогают развить такие качества, как организованность и трудолюбие.</b></div>
+                    <div class="footer__social">
+                        <div class="footer__social-header">
+                            <b>15k подписчиков</b> 
+                        </div>
+                        <div class="footer__social-content">
+                            <b>Подпишитесь на нас:</b>
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-facebook"></i>
+                                </a> 
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-vk"></i>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-pinterest"></i>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                        </div>
+                    </div>
+                    <form class="subscribe" action="/" method="post">
+                       <input class="subscribe__input" type="email" name="name" placeholder="Ваш Email...">
+                        <button class="subscribe__btn" type="submit">Подписаться</button>
+                    </form>
+            </div>
+            <div class="footer__col footer__col--second">
+                <div class="footer__title"><b>Блог</b></div>
+                <div class="blogs">
+                    <div class="blogs__item">
+                        <img class="blogs__img" src="assets/images/blog/1.jpg" alt="">
+                        <div class="blogs__content">
+                            <a class="blogs__title" href="#"><b>ТОП упражнений для твоего шпагата</b></a>
+                            <div class="blogs__date"><b>15 Дек, 2019</b></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blogs">
+                    <div class="blogs__item">
+                        <img class="blogs__img" src="assets/images/blog/2.jpg" alt="">
+                        <div class="blogs__content">
+                            <a class="blogs__title" href="#"><b>Соревнования с Новгороде</b></a>
+                            <div class="blogs__date"><b>17 Дек, 2019</b></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blogs">
+                    <div class="blogs__item">
+                        <img class="blogs__img" src="assets/images/blog/3.jpg" alt="">
+                        <div class="blogs__content">
+                            <a class="blogs__title" href="#"><b>Как правильно питаться?</b></a>
+                            <div class="blogs__date"><b>23 Дек, 2019</b></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__col footer__col--third">
+                <div class="footer__title"><b>Инстаграм</b></div>
+                <div class="instagram">
+                    <a class="instagram__item" href="#" target="_blank">
+                        <img class="instagram__img" src="assets/images/inst/1.jpg" alt="">
+                    </a>
+                    <a class="instagram__item" href="#" target="_blank">
+                        <img class="instagram__img" src="assets/images/inst/02.jpg" alt="">
+                    </a>
+                    <a class="instagram__item" href="#" target="_blank">
+                        <img class="instagram__img" src="assets/images/inst/3.jpg" alt="">
+                    </a>
+                    <a class="instagram__item" href="#" target="_blank">
+                        <img class="instagram__img" src="assets/images/inst/04.jpg" alt="">
+                    </a>
+                    <a class="instagram__item" href="#" target="_blank">
+                        <img class="instagram__img" src="assets/images/inst/05.jpg" alt="">
+                    </a>
+                    <a class="instagram__item" href="#" target="_blank">
+                        <img class="instagram__img" src="assets/images/inst/06.jpg" alt="">
+                    </a>
+                    <a class="instagram__item" href="#" target="_blank">
+                        <img class="instagram__img" src="assets/images/inst/07.jpg" alt="">
+                    </a>
+                    <a class="instagram__item" href="#" target="_blank">
+                        <img class="instagram__img" src="assets/images/inst/08.jpg" alt="">
+                    </a>
+                    <a class="instagram__item" href="#" target="_blank">
+                        <img class="instagram__img" src="assets/images/inst/09.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <b>© 2021 MuDance web-site by <span>Elina</span></b> 
+        </div>
+    </div>
+</footer>
+
+<script 
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+</script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="assets/js/app.js"></script>
+
+</body>
+</html>
